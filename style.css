@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Images/mitsuha.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.trap {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: azure;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+
+.trap h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.trap .form-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.trap .rf {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.trap .ghuta {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: rgb(43, 42, 42);
+
+
+
+}
+
+.trap .rl {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.form-box input::placeholder {
+    color: azure;
+}
+
+.rf label input {
+    accent-color: white;
+    margin-right: 7px;
+}
+
+.rf a {
+    color: azure;
+    text-decoration: none;
+}
+
+.rf a:hover {
+    text-decoration: underline;
+}
+
+.rl p a {
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.rl p a:hover {
+    text-decoration: underline;
+}
